@@ -21,6 +21,10 @@ html {
   overflow-x: hidden;
 }
 
+section {
+  padding: 2 rem 9%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -83,6 +87,49 @@ header .fa-bars {
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.3);
   display: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../assets/Video.mp4) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content {
+  max-width: 50rem;
+}
+
+.home .content h1 {
+  font-size: 6rem;
+  color: black;
+}
+
+.home .content span {
+  font-size: 3.5rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.home .content p {
+  font-size: 1.5rem;
+  color: darkblue;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.content video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 @media (max-width: 991px) {
