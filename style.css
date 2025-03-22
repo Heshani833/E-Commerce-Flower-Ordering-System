@@ -4,7 +4,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   outline: none;
@@ -23,6 +23,21 @@ html {
 
 section {
   padding: 2 rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: rgb(33, 33, 227);
+  color: white;
+  padding: 1.5rem 4rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn:hover {
+  background: var(--pink);
 }
 
 header {
@@ -116,7 +131,7 @@ header .fa-bars {
 
 .home .content p {
   font-size: 1.5rem;
-  color: darkblue;
+  color: rgb(6, 6, 21);
   padding: 1rem 0;
   line-height: 1.5;
 }
@@ -138,6 +153,14 @@ header .fa-bars {
   }
   header {
     padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .home {
+    background-position: left;
   }
 }
 
