@@ -191,6 +191,13 @@ header .fa-bars {
     border: 0.1rem solid rgba(0, 0, 0, 0.1);
     display: block;
   }
+  .home .content h3 {
+    font-size: 5rem;
+  }
+
+  .home .content span {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 450px) {
